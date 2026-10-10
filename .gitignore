@@ -1,0 +1,16 @@
+out/
+out-test/
+dist/
+*.class
+*.log
+.idea/
+.vscode/
+.DS_Store
+
+# Runtime-generated local data
+data/*.csv
+data/audit.log
+
+# Runtime certificate uploads are local-only; keep the directory itself.
+data/certificates/*.pdf
+!data/certificates/.gitkeep

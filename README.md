@@ -143,10 +143,6 @@ The files are intentionally human-readable so the persistence logic can be inspe
 
 This project intentionally keeps persistence local and dependency-free. For a production deployment, the next logical upgrades would be PostgreSQL/JPA, a Spring Boot REST API, stronger authorization boundaries, integration tests, and a web/mobile client. For a desktop Java portfolio project, the current implementation keeps the focus on core Java and software design rather than framework setup.
 
-## Resume-ready Description
-
-> Built a role-based Java 17 Swing pet-care marketplace for owners, verified helpers, and administrators, implementing a layered service/repository architecture, polymorphic domain models, task lifecycle management, Stream-based search/sorting, CSV persistence with atomic writes, PBKDF2 password hashing, certificate verification, analytics, report export, audit logging, and automated CI smoke tests.
-
 ## License
 
 MIT License.
